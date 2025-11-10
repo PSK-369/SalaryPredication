@@ -1,0 +1,76 @@
+EmpName,EmpSalary,EmpDomain,EmpAddress,EmpHRName,EmpManagerName,EmpLocation,EmpPromotion,EmpDesignation,EmpJoinedOrNot,EmpPerFromCE,EmpScore
+John Smith,72000,IT,"123 Oak St, Boston, MA",Sarah Mitchell,Robert Chen,Boston HQ,Yes,Senior Software Engineer,Yes,85%,4.6
+Priya Patel,68000,Marketing,"456 Elm Ave, Austin, TX",Lisa Tran,Michael Brooks,Austin Office,No,Digital Marketing Specialist,Yes,92%,4.8
+David Kim,85000,Finance,"789 Pine Rd, Chicago, IL",James Wilson,Elena Rodriguez,Chicago Branch,Yes,Financial Analyst,Yes,88%,4.7
+Maria Garcia,62000,HR,"321 Cedar Ln, Denver, CO",Olivia Park,Thomas Reed,Remote - West,No,HR Coordinator,Yes,80%,4.2
+Kevin Brown,95000,Engineering,"654 Maple Dr, Seattle, WA",Daniel Lee,Amanda Foster,Seattle Tech Hub,Yes,Lead Mechanical Engineer,Yes,95%,4.9
+Aisha Khan,70000,Sales,"987 Spruce St, Miami, FL",Rachel Green,Carlos Mendez,Miami Regional,No,Account Executive,Yes,83%,4.5
+Liam O’Connor,78000,IT,"234 Birch Ct, Portland, OR",Emma Taylor,Jason Wu,Portland Office,Yes,DevOps Engineer,Yes,90%,4.7
+Zoe Martinez,65000,Marketing,"567 Walnut St, Atlanta, GA",,Grace Lin,Atlanta Office,No,Content Strategist,Yes,86%,4.6
+Ethan Lee,82000,Finance,"890 Cherry Blvd, Dallas, TX",,Victor Torres,Dallas HQ,Yes,Senior Financial Planner,Yes,91%,4.8
+Chloe Davis,60000,HR,"123 Oak St, Boston, MA",Olivia Park,Robert Chen,Boston HQ,No,Recruiter,Yes,78%,4.1
+Noah Wilson,90000,Engineering,"456 Elm Ave, Austin, TX",Daniel Lee,Michael Brooks,Austin Office,Yes,Electrical Engineer,Yes,93%,4.9
+Amelia Taylor,67000,IT,"789 Pine Rd, Chicago, IL",Sarah Mitchell,Elena Rodriguez,Chicago Branch,No,Junior Developer,Yes,82%,4.4
+Lucas Harris,75000,Sales,"321 Cedar Ln, Denver, CO",Rachel Green,Thomas Reed,Remote - West,Yes,Regional Sales Manager,Yes,89%,4.7
+Harper Scott,63000,Marketing,"654 Maple Dr, Seattle, WA",Lisa Tran,Amanda Foster,Seattle Tech Hub,No,SEO Specialist,Yes,85%,4.5
+Mason Allen,88000,Finance,"987 Spruce St, Miami, FL",James Wilson,Carlos Mendez,Miami Regional,Yes,Investment Analyst,Yes,90%,4.8
+Ella Young,66000,HR,"234 Birch Ct, Portland, OR",Emma Taylor,Jason Wu,Portland Office,No,Employee Relations Rep,Yes,81%,4.3
+Logan King,79000,IT,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace Lin,Atlanta Office,Yes,Cloud Architect,Yes,94%,4.9
+Grace Wright,64000,Marketing,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,No,Social Media Manager,Yes,87%,4.6
+Jack Hill,83000,Engineering,"123 Oak St, Boston, MA",Daniel Lee,Robert Chen,Boston HQ,Yes,Structural Engineer,Yes,92%,4.8
+Lily Adams,61000,HR,"456 Elm Ave, Austin, TX",Olivia Park,Michael Brooks,Austin Office,No,Onboarding Specialist,Yes,79%,4.2
+Henry Baker,86000,Finance,"789 Pine Rd, Chicago, IL",James Wilson,Elena Rodriguez,Chicago Branch,Yes,Tax Consultant,Yes,89%,4.7
+Scarlett Nelson,69000,IT,"321 Cedar Ln, Denver, CO",Sarah Mitchell,Thomas Reed,Remote - West,No,QA Engineer,Yes,84%,4.5
+Owen Carter,77000,Sales,"654 Maple Dr, Seattle, WA",Rachel Green,Amanda Foster,Seattle Tech Hub,Yes,Inside Sales Rep,Yes,88%,4.6
+Avery Perez,68000,Marketing,"987 Spruce St, Miami, FL",Lisa Tran,Carlos Mendez,Miami Regional,No,Brand Manager,Yes,91%,4.8
+Carter Roberts,81000,Engineering,"234 Birch Ct, Portland, OR",Daniel Lee,Jason Wu,Portland Office,Yes,Product Designer,Yes,93%,4.9
+Zoe Turner,62000,HR,"567 Walnut St, Atlanta, GA",Emma Taylor,,Atlanta Office,No,Compensation Analyst,Yes,80%,4.3
+Leo Phillips,74000,IT,"890 Cherry Blvd, Dallas, TX",Nathan Clark,Victor Torres,Dallas HQ,Yes,Network Administrator,Yes,86%,4.5
+Hannah Campbell,65000,Marketing,"123 Oak St, Boston, MA",Mia Nguyen,Robert Chen,Boston HQ,No,Email Marketing Specialist,Yes,85%,4.4
+Gabriel Parker,89000,Finance,"456 Elm Ave, Austin, TX",James Wilson,Michael Brooks,Austin Office,Yes,Corporate Accountant,Yes,92%,4.8
+Luna Evans,63000,HR,"789 Pine Rd, Chicago, IL",Olivia Park,Elena Rodriguez,Chicago Branch,No,Training Coordinator,Yes,77%,4.1
+Julian Collins,76000,IT,"321 Cedar Ln, Denver, CO",Sarah Mitchell,Thomas Reed,Remote - West,Yes,Data Analyst,Yes,88%,4.7
+Stella Stewart,67000,Sales,"654 Maple Dr, Seattle, WA",Rachel Green,Amanda Foster,Seattle Tech Hub,No,Client Success Manager,Yes,84%,4.5
+Dylan Morris,84000,Engineering,"987 Spruce St, Miami, FL",Daniel Lee,Carlos Mendez,Miami Regional,Yes,Systems Engineer,Yes,91%,4.8
+Violet Rogers,64000,Marketing,"234 Birch Ct, Portland, OR",Lisa Tran,Jason Wu,Portland Office,No,Graphic Designer,Yes,82%,4.4
+Isaac Cook,80000,Finance,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace Lin,Atlanta Office,Yes,Audit Manager,Yes,90%,4.7
+Maya Bell,66000,HR,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,No,HR Generalist,Yes,81%,4.3
+Sebastian Gray,73000,IT,"123 Oak St, Boston, MA",Sarah Mitchell,Robert Chen,Boston HQ,Yes,Full Stack Developer,Yes,87%,4.6
+Paisley Hughes,69000,Marketing,"456 Elm Ave, Austin, TX",Lisa Tran,Michael Brooks,Austin Office,No,PPC Specialist,Yes,89%,4.7
+Theo Murphy,87000,Finance,"789 Pine Rd, Chicago, IL",James Wilson,Elena Rodriguez,Chicago Branch,Yes,Risk Analyst,Yes,92%,4.8
+Addison Rivera,61000,HR,"321 Cedar Ln, Denver, CO",Olivia Park,Thomas Reed,Remote - West,No,Payroll Specialist,Yes,79%,4.2
+Elliot Barnes,79000,Engineering,"654 Maple Dr, Seattle, WA",Daniel Lee,Amanda Foster,Seattle Tech Hub,Yes,Civil Engineer,Yes,94%,4.9
+Nora Jenkins,65000,Marketing,"987 Spruce St, Miami, FL",Rachel Green,Carlos Mendez,Miami Regional,No,Market Research Analyst,Yes,86%,4.5
+Finn Coleman,82000,IT,"234 Birch Ct, Portland, OR",Emma Taylor,Jason Wu,Portland Office,Yes,Security Analyst,Yes,91%,4.8
+Isla Perry,63000,HR,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace Lin,Atlanta Office,No,Employee Engagement Specialist,Yes,80%,4.3
+Rowan Simmons,77000,Sales,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,Yes,Sales Operations Manager,Yes,88%,4.6
+Aurora Howard,68000,Marketing,"123 Oak St, Boston, MA",Olivia Park,Robert Chen,Boston HQ,No,Content Writer,Yes,85%,4.4
+Kai Ward,86000,Engineering,"456 Elm Ave, Austin, TX",Daniel Lee,Michael Brooks,Austin Office,Yes,Robotics Engineer,Yes,93%,4.9
+Sawyer Bennett,64000,HR,"789 Pine Rd, Chicago, IL",Sarah Mitchell,Elena Rodriguez,Chicago Branch,No,Benefits Administrator,Yes,78%,4.1
+Clara Cox,75000,IT,"321 Cedar Ln, Denver, CO",Lisa Tran,Thomas Reed,Remote - West,Yes,Database Administrator,Yes,89%,4.7
+Jasper Richardson,81000,Finance,"654 Maple Dr, Seattle, WA",James Wilson,Amanda Foster,Seattle Tech Hub,Yes,FP&A Analyst,Yes,90%,4.8
+Penelope Price,62000,Marketing,"987 Spruce St, Miami, FL",Rachel Green,Carlos Mendez,Miami Regional,No,Video Producer,Yes,84%,4.5
+Dominic Hayes,78000,Engineering,"234 Birch Ct, Portland, OR",Emma Taylor,Jason Wu,Portland Office,Yes,Manufacturing Engineer,Yes,92%,4.8
+Lillian Myers,66000,HR,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace Lin,Atlanta Office,No,HRIS Analyst,Yes,82%,4.4
+Rhett Long,83000,IT,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,Yes,UX Designer,Yes,91%,4.9
+Nova Griffin,67000,Marketing,"123 Oak St, Boston, MA",Olivia Park,Robert Chen,Boston HQ,No,Influencer Marketing Manager,Yes,87%,4.6
+Asher Hamilton,85000,Finance,"456 Elm Ave, Austin, TX",James Wilson,Michael Brooks,Austin Office,Yes,Compliance Officer,Yes,93%,4.9
+Hazel Sullivan,63000,HR,"789 Pine Rd, Chicago, IL",Sarah Mitchell,Elena Rodriguez,Chicago Branch,No,Workplace Safety Officer,Yes,79%,4.2
+Leo Foster,76000,IT,"321 Cedar Ln, Denver, CO",Lisa Tran,Thomas Reed,Remote - West,Yes,Mobile App Developer,Yes,88%,4.7
+Zoe Elliott,69000,Sales,"654 Maple Dr, Seattle, WA",Rachel Green,Amanda Foster,Seattle Tech Hub,No,Sales Support Specialist,Yes,85%,4.5
+Hunter Diaz,84000,Engineering,"987 Spruce St, Miami, FL",Daniel Lee,Carlos Mendez,Miami Regional,Yes,Quality Assurance Engineer,Yes,90%,4.8
+Willow Ross,64000,Marketing,"234 Birch Ct, Portland, OR",Emma Taylor,Jason Wu,Portland Office,No,PR Associate,Yes,83%,4.4
+Miles Cruz,80000,Finance,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace Lin,Atlanta Office,Yes,Budget Analyst,Yes,89%,4.7
+Emery Shaw,65000,HR,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,No,HR Assistant,Yes,77%,4.1
+Sage Powell,74000,IT,"123 Oak St, Boston, MA",Sarah Mitchell,Robert Chen,Boston HQ,Yes,API Developer,Yes,86%,4.5
+Riley Butler,68000,Marketing,"456 Elm Ave, Austin, TX",Lisa Tran,Michael Brooks,Austin Office,No,Analytics Manager,Yes,91%,4.8
+Arlo Fisher,87000,Engineering,"789 Pine Rd, Chicago, IL",James Wilson,Elena Rodriguez,Chicago Branch,Yes,Process Engineer,Yes,94%,4.9
+Eden Russell,62000,HR,"321 Cedar Ln, Denver, CO",Olivia Park,Thomas Reed,Remote - West,No,Immigration Specialist,Yes,80%,4.3
+Beau Silva,79000,IT,"654 Maple Dr, Seattle, WA",Daniel Lee,Amanda Foster,Seattle Tech Hub,Yes,Infrastructure Engineer,Yes,92%,4.8
+Millie Fowler,66000,Sales,"987 Spruce St, Miami, FL",Rachel Green,Carlos Mendez,Miami Regional,No,Channel Sales Rep,Yes,84%,4.5
+Ronan Bryant,82000,Finance,"234 Birch Ct, Portland, OR",Emma Taylor,Jason Wu,Portland Office,Yes,Controller,Yes,91%,4.9
+Skye Alexander,63000,Marketing,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace Lin,Atlanta Office,No,CRM Manager,Yes,87%,4.6
+Knox Morgan,77000,Engineering,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,Yes,Project Engineer,Yes,89%,4.7
+Lydia Reyes,65000,HR,"123 Oak St, Boston, MA",Olivia Park,Robert Chen,Boston HQ,No,Performance Management Specialist,Yes,81%,4.3
+Eli Stone,88000,IT,"456 Elm Ave, Austin, TX",Sarah Mitchell,Michael Brooks,Austin Office,Yes,Lead Data Scientist,Yes,95%,4.9
+Freya Grant,67000,Marketing,"789 Pine Rd, Chicago, IL",Lisa Tran,Elena Rodriguez,Chicago Branch,No,Event Coordinator,Yes,85%,4.5

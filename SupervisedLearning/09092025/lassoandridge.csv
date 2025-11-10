@@ -1,0 +1,31 @@
+Employee ID,Age,Department,Salary,Years of Experience,Education Level,Job Title,Location,Performance Rating,Years with Company
+1,25,Sales,50000,2,Bachelor's,Sales Representative,New York,4,1
+2,30,Marketing,60000,5,Master's,Marketing Manager,Chicago,5,3
+3,28,IT,70000,3,Bachelor's,Software Engineer,San Francisco,4,2
+4,35,Finance,80000,10,PhD,Financial Analyst,New York,5,5
+5,22,HR,40000,1,Associate's,HR Representative,Los Angeles,3,1
+6,40,Operations,90000,15,Bachelor's,Operations Manager,Chicago,5,10
+7,29,Sales,55000,4,Bachelor's,Sales Representative,Houston,4,2
+8,32,Marketing,65000,6,Master's,Marketing Manager,Seattle,5,4
+9,26,IT,75000,4,Bachelor's,Software Engineer,Boston,4,3
+10,38,Finance,85000,12,PhD,Financial Analyst,San Francisco,5,8
+11,24,HR,45000,2,Associate's,HR Representative,Dallas,3,1
+12,42,Operations,95000,18,Bachelor's,Operations Manager,New York,5,12
+13,27,Sales,58000,5,Bachelor's,Sales Representative,Chicago,4,3
+14,34,Marketing,68000,8,Master's,Marketing Manager,Los Angeles,5,6
+15,30,IT,78000,6,Bachelor's,Software Engineer,Houston,4,5
+16,36,Finance,88000,14,PhD,Financial Analyst,Seattle,5,10
+17,23,HR,42000,1,Associate's,HR Representative,Boston,3,1
+18,44,Operations,98000,20,Bachelor's,Operations Manager,San Francisco,5,15
+19,31,Sales,60000,6,Bachelor's,Sales Representative,New York,4,4
+20,39,Marketing,72000,10,Master's,Marketing Manager,Chicago,5,8
+21,25,IT,72000,5,Bachelor's,Software Engineer,Los Angeles,4,4
+22,41,Finance,92000,16,PhD,Financial Analyst,Houston,5,12
+23,28,HR,48000,3,Associate's,HR Representative,Dallas,3,2
+24,46,Operations,100000,22,Bachelor's,Operations Manager,Seattle,5,18
+25,33,Sales,62000,7,Bachelor's,Sales Representative,Boston,4,5
+26,37,Marketing,74000,11,Master's,Marketing Manager,San Francisco,5,9
+27,29,IT,76000,7,Bachelor's,Software Engineer,New York,4,6
+28,43,Finance,94000,18,PhD,Financial Analyst,Chicago,5,14
+29,26,HR,44000,2,Associate's,HR Representative,Los Angeles,3,1
+30,48,Operations,102000,24,Bachelor's,Operations Manager,Houston,5,20
