@@ -1,0 +1,24 @@
+knn_linear = KNeighborsClassifier(
+    n_neighbors=5,        # K=5 means consider 5 nearest neighbors
+                          # Why 5? It's a good starting point (not too small, not too large)
+                          # Odd number avoids ties in binary classification
+    
+    weights='uniform',    # How to weight neighbors in voting:
+                          # 'uniform': All neighbors have equal vote (1 vote each)
+                          # 'distance': Closer neighbors have higher weight (1/distance)
+    
+    algorithm='auto',     # Which algorithm to use for finding neighbors:
+                          # 'auto': Chooses best based on data (usually ball_tree or kd_tree)
+                          # 'ball_tree': Good for high dimensions
+                          # 'kd_tree': Fast for low dimensions
+                          # 'brute': Computes all distances (slow but always works)
+    
+    metric='euclidean',   # Distance metric to use:
+                          # 'euclidean': √[(x₂-x₁)² + (y₂-y₁)²] - straight line distance
+                          # 'manhattan': |x₂-x₁| + |y₂-y₁| - city block distance
+                          # 'minkowski': Generalized distance (p=1: manhattan, p=2: euclidean)
+    
+    n_jobs=-1             # Number of parallel jobs:
+                          # -1: Use all available CPU cores (faster)
+                          # 1: Use single core (slower but less resource intensive)
+)
