@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 https://www.youtube.com/watch?v=Aa4MACKaDC0
 https://www.youtube.com/watch?v=93DwLV0TkNs
 https://www.youtube.com/watch?v=UgxHn8W4usI
+=======
+https://www.youtube.com/watch?v=Aa4MACKaDC0
+https://www.youtube.com/watch?v=93DwLV0TkNs
+https://www.youtube.com/watch?v=UgxHn8W4usI
+>>>>>>> 84592a8599b4f6adb28e39dddbff5b410bc876e4
 https://www.youtube.com/watch?v=eEtEPdw2dck

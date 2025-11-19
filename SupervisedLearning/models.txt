@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 KNN
 
 -> meansing and importance
@@ -45,3 +46,52 @@ randomforest
 
 
 
+=======
+KNN
+
+-> meansing and importance
+-> Formulas and explain apply the some that formulas and show the manuals results
+-> Where to use simple terms important points and terminology
+-> When to use simple terms important points
+-> Core concepts end to end  and formulas and examples data samples
+-> How to use it simple terms please provide the steps
+-> Types
+-> Incase of linear data and non linear data how to use it
+-> impoant: Examples data from kaggle.com website and its python codes each line with comments and explain that line and keywords meaning why using with proper explanations sklearn library all kind of the data like linear non linear etc..
+--> claassification python codes
+      -> linear data 
+      -> non linear data
+--> regression python codes
+     -> linear data
+     -> non linear data
+-> Before applying KNN what to check in the data and how to decide KNN  can apply or not
+-> Incase of regression and classification problem
+-> Some bullet points for any ml interviews and its answers
+
+
+
+
+
+
+randomforest
+
+-> meansing and importance
+-> Formulas and explain apply the some that formulas and show the manuals results
+-> Where to use simple terms important points and terminology
+-> When to use simple terms important points
+-> Core concepts end to end  and formulas and examples data samples
+-> How to use it simple terms please provide the steps
+-> Types
+-> Incase of linear data and non linear data how to use it
+-> Examples data from kaggle.com website and its python codes in clude all paremeters repective to that model each line with comments and explain that line and keywords meaning why using with proper explanations sklearn library all kind of the data like linear non linear etc..
+-> Before applying randomforest what to check in the data and how to decide randomforest can apply or not
+
+-> Some bullet points for any ml interviews and its answers
+
+
+
+
+
+
+
+>>>>>>> 84592a8599b4f6adb28e39dddbff5b410bc876e4
