@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 EmpName,EmpSalary,EmpDomain,EmpAddress,EmpHRName,EmpManagerName,EmpLocation,EmpPromotion,EmpDesignation,EmpJoinedOrNot,EmpPerFromCE,EmpScore
 John Smith,72000,IT,"123 Oak St, Boston, MA",Sarah Mitchell,Robert Chen,Boston HQ,Yes,Senior Software Engineer,Yes,85%,4.6
 Priya Patel,68000,Marketing,"456 Elm Ave, Austin, TX",Lisa Tran,Michael Brooks,Austin Office,No,Digital Marketing Specialist,Yes,92%,4.8
@@ -150,5 +149,5 @@ Skye Alexander,63000,Marketing,"567 Walnut St, Atlanta, GA",Nathan Clark,Grace L
 Knox Morgan,77000,Engineering,"890 Cherry Blvd, Dallas, TX",Mia Nguyen,Victor Torres,Dallas HQ,Yes,Project Engineer,Yes,89%,4.7
 Lydia Reyes,65000,HR,"123 Oak St, Boston, MA",Olivia Park,Robert Chen,Boston HQ,No,Performance Management Specialist,Yes,81%,4.3
 Eli Stone,88000,IT,"456 Elm Ave, Austin, TX",Sarah Mitchell,Michael Brooks,Austin Office,Yes,Lead Data Scientist,Yes,95%,4.9
->>>>>>> 84592a8599b4f6adb28e39dddbff5b410bc876e4
+
 Freya Grant,67000,Marketing,"789 Pine Rd, Chicago, IL",Lisa Tran,Elena Rodriguez,Chicago Branch,No,Event Coordinator,Yes,85%,4.5

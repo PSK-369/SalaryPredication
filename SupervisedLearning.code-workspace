@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../supervisedalgo/supervised/SupervisedLearning"
+		},
+		{
+			"path": "../supervisedalgo/supervised"
+		}
+	],
+	"settings": {}
+}

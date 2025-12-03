@@ -1,0 +1,8 @@
+first check:
+check Observability == preset or not
+    if present means go to below checks
+	   filebeat, metricbeat and winlogbeat go each folder and 
+	   check and print filbeat.yml,metricbeat.yml,winlogbeatbeat.yml
+	   
+    
+	   if any folder is not present means leave it and go to next folder and check it
