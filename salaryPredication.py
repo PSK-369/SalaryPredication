@@ -4,9 +4,7 @@ import pandas as pd
 from datetime import datetime, date  # noqa: ignore
 
 try:
-    salary_model = joblib.load(
-        r"C:\Shravan\PythonPratice\supervised\machineLearning1\predication01\linear_reg_salary.joblib"  # noqa: ignore
-    )
+    salary_model = joblib.load(r"linear_reg_salary.joblib")  # noqa: ignore
 
     st.title(" EMP SALARY PREDICATIONS")
     st.write("Model is loaded successfully")
@@ -35,7 +33,7 @@ try:
     st.write(f" salary is : INR : {abs(predications[0]):,.3f}")
     st.subheader("Bar chart")
     st.bar_chart(data=dataframe1)
-    st.markdown(f"{datetime.now().strftime("%Y-%M-%d %I:%M:%S %p")}")
+    st.markdown(f"{datetime.now().strftime("%D  %I:%M:%S %p")}")
 except Exception as e:
     error = st.error(f"{str(e)} error message")
     st.code(f"{str(e)}", language="python")
