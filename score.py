@@ -2,7 +2,8 @@ import joblib
 import pandas as pd
 import streamlit as st
 import time
-
+import warnings
+warnings.filterwarnings("ignore")
 
 try:
     model1 = joblib.load("decesion_reg.joblib")
