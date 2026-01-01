@@ -1,0 +1,10 @@
+pandas
+numpy
+streamlit
+seaborn
+scikit-learn
+matplotlib
+statistics
+scipy
+time
+joblib
