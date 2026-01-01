@@ -1,9 +1,8 @@
-pandas
-numpy
 streamlit
-seaborn
+joblib
+numpy
+pandas
 scikit-learn
+seaborn
 matplotlib
-statistics
-scipy
-time
+datetime
