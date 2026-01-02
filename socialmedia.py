@@ -12,7 +12,7 @@ try:
     decesion = joblib.load("Decesion.joblib")
     st.balloons()
     st.header("Social Media Affected or not to studies")
-    st.title("Decesion Tree [Classifiers]")
+    st.title("Logistic Regression [Classifiers]")
     st.code("Models are loaded succssfully")
     with st.sidebar.form(key="form-inputs"):
         with st.sidebar:
@@ -71,12 +71,12 @@ try:
     st.code(
         "if 1 means not affeted to acadamics and 2 means students are affected to acadamics "
     )
-    # st.code("Logistic regression results")
-    # st.code(f"the predication value is ===> {abs(predication1[0]):,.2f}")
+    st.code("Logistic regression results")
+    st.code(f"the predication value is ===> {abs(predication1[0]):,.2f}")
 
-    predication2 = decesion.predict(df7)
-    st.code("decesion tree classifier results")
-    st.code(f"the predication value is ===> {abs(predication2[0]):,.2f}")
+    # predication2 = decesion.predict(df7)
+    # st.code("decesion tree classifier results")
+    # st.code(f"the predication value is ===> {abs(predication2[0]):,.2f}")
 
     st.subheader("data")
     st.table(df7)
