@@ -11,6 +11,7 @@ try:
     model = joblib.load("random_regressor.joblib")
     st.info("model is loaded successfully")
     st.code("This model is build based on Random Regressor")
+
     st.header("Seconds Cars Price Predications")
     st.balloons()
     with st.sidebar.form(key="input form parameters"):
@@ -68,3 +69,7 @@ else:
     st.info("No errors in the models")
 finally:
     st.info("Code completed and final block is executed....")
+    st.code(
+        f"git hub code link: --> https://github.com/PSK-369/SalaryPredication/tree/secondscarpriceApp01"
+    )
+    st.header("Thank You ")
