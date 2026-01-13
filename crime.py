@@ -72,7 +72,7 @@ try:
     print(f"catageroy name is : - >{abs(predications1[0]):,.2f}")
     st.code(
         f"""catageroy name is : - >{abs(predications1[0]):,.2f} \n 
-        based on the input features
+        Based on the input features
             crime names : 
                Drug and Weapon Crimes - 0
                Violence - 5
@@ -102,6 +102,7 @@ else:
     st.info("no errors in the code yours code good")
 finally:
     st.info("final block is executed and no code after this on")
-    # st.code(f"Github URL Link -- > {}")
+    url = "https://github.com/PSK-369/SalaryPredication/tree/crimedataClassApp01"
+    st.code(f"Github URL Link -- > {url}")
     st.code("Thank You")
     pass
