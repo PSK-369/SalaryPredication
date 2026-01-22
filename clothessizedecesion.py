@@ -62,6 +62,6 @@ else:
     st.write("No errors")
 finally:
     st.header("Final block is executed")
-    link = ""
+    link = "https://github.com/PSK-369/SalaryPredication/tree/clothesSizeApp01"
     st.code(f" github link is : {link}")
     st.header("Thank You...!")
