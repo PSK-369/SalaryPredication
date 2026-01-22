@@ -6,3 +6,4 @@ streamlit
 joblib
 scikit-learn
 scipy
+altair==4.2.2
