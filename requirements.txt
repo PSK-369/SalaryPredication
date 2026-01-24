@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
-streamlit
+streamlit>=1.39.0
 joblib
 scikit-learn
 statistics
