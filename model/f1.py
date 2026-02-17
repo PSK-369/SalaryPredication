@@ -233,7 +233,7 @@ try:
 
 except Exception as e:
     st.code(str(e))
-    str.code(traceback.format_exc())
+    st.code(traceback.format_exc())
 else:
     st.info("No errors in the code...!")
 finally:
