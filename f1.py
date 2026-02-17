@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 
 # basic form
 st.title("User Authenticaion Form")
-st.set_page_config(page_title="User access form", layout="centered")
+st.set_page_config(page_title="Loan Approved or not Pred", layout="centered")
 with st.form(key="Inputs form", clear_on_submit=True):
     username = st.text_input(
         label="username",
