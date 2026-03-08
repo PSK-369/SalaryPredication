@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  main_service:
+    image: docer998/maritallifepred:mainml
+    container_name: Mlservice_01
+    environment:
+      - BackendURL=http://v2authback_service:103
+      - mydev=QA
+    ports:
+      - '101:100'
+    restart: always
+    volumes:
+      - ./Modeljoblibfiles:/Modeljoblibfiles
+    depends_on:
+      - v2authback_service
+
+
+  v1auth_service:
+    image: docer998/maritallifepred:v1auth
+    container_name: Auth_service01
+    environment:
+      - BackendURL=http://v2authback_service:103
+      - mydev=QA
+    ports:
+      - '105:101'
+    restart: always
+    volumes:
+      - ./Modeljoblibfiles:/Modeljoblibfiles
+    depends_on:
+      - v2authback_service
+
+
+  v2authback_service:
+    image: docer998/maritallifepred:v2back
+    container_name: Back_Service01
+    environment:
+      - mydev=QA
+    ports:
+      - '104:103'
+    restart: always

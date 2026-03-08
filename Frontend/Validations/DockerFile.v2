@@ -1,0 +1,9 @@
+FROM python:3.13.3
+WORKDIR /app 
+COPY requirements.v2.txt /app
+RUN python -m pip install --upgrade pip 
+RUN python -m pip install --no-cache-dir -r requirements.v2.txt
+COPY . .
+EXPOSE 103
+ENV Myvalue=QA
+CMD ["python","-m","uvicorn","v2:app","--host","0.0.0.0","--port","103"] 

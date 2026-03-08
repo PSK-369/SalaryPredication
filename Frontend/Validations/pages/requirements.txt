@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+joblib
+streamlit >=1.39.0
+matplotlib
+seaborn
+pydantic
+fastapi[standard]
