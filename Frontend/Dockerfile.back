@@ -1,0 +1,9 @@
+FROM python:3.13.3
+WORKDIR /back
+COPY requirements.back.txt .
+RUN python -m pip install --upgrade pip
+RUN python -m pip install --no-cache-dir -r requirements.back.txt
+COPY . .
+ENV Mydev=QA
+EXPOSE 2003
+CMD [ "python","-m","uvicorn","back:app","--reload","--host","0.0.0.0","--port","2003" ]

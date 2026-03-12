@@ -1,0 +1,9 @@
+numpy
+pandas
+fastapi[standard]
+uvicorn
+streamlit >=1.39.0
+matplotlib
+seaborn
+scikit-learn
+pydantic

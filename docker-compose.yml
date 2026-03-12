@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  MainMLService01:
+    image: docer998/youthaddction:mainml
+    container_name: MainMLService01
+    ports:
+      - "2004:2001"
+    environment:
+      - mydev=QA
+    restart: always
+
+  FrontendService01:
+    image: docer998/youthaddction:frontend
+    container_name: FrontendService01
+    ports:
+      - "2005:2002"
+    environment:
+      - mydev=QA
+      - BackURL=http://BackendService01:2003
+    restart: always
+    depends_on:
+      - BackendService01
+
+  BackendService01:
+    image: docer998/youthaddction:backend
+    container_name: BackendService01
+    ports:
+      - "2006:2003"
+    environment:
+      - mydev=QA
+    restart: always
