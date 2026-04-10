@@ -20,7 +20,8 @@ try:
             "Models  are used in Logistic + Decision +Random + KNN + SVC classification"
         )
         st.balloons()
-        Logistic_classification = joblib.load("./logistic_regression.joblib")
+        
+        Logistic_classification = joblib.load(os.path.join(os.getcwd(),"logistic_regression.joblib"))
         Decision_classification = joblib.load(
             "./DecisionTreeClassifier_instance.joblib"
         )
