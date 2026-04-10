@@ -40,7 +40,7 @@ try:
         st.code(model_selection.items())
 
     except Exception as e2:
-        st.error(str(e2), language="python")
+        st.error(str(e2))
 
     else:
         st.success("No Errors in the code")
