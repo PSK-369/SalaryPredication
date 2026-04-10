@@ -9,8 +9,6 @@ from matplotlib import pyplot as plt
 from fastapi import FastAPI, HTTPException, status
 from typing import List, Dict, Optional, Any, Set
 from pydantic import BaseModel, Field, field_validator, model_validator
-
-
 import warnings
 
 
@@ -64,14 +62,13 @@ class UserModel(BaseModel):
     @field_validator("userpassword")
     @classmethod
     def user_password_validation_check(cls, userpassword: str) -> str:
-        # ✅ Check if ANY character meets each criteria (not the whole string)
+
         lowercaseCheck = any(c.islower() for c in userpassword)
         uppercaseCheck = any(c.isupper() for c in userpassword)
         digitsCheck = any(c.isdigit() for c in userpassword)
         specialChars = any(c in "!@#$%^&*/?" for c in userpassword)
 
         if not (lowercaseCheck and uppercaseCheck and digitsCheck and specialChars):
-            # ✅ Pydantic expects ValueError, not HTTPException
             raise ValueError(
                 "Password must contain: lowercase, uppercase, digit, and special char (!@#$%^&*/?)"
             )

@@ -1,0 +1,9 @@
+FROM python:3.13.3
+WORKDIR /App
+COPY requirements.auth.txt ./
+RUN python -m pip install --upgrade pip 
+RUN python -m pip install --no-cache-dir requirements.auth.txt
+COPY . .
+EXPOSE 1001
+ENV Mydev=DEV1
+CMD [ "python",'-m','streamlit','run','./main.py','--server.address','0.0.0.0','--server.port','1001' ]
