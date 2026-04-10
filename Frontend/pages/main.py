@@ -21,13 +21,13 @@ try:
         )
         st.balloons()
         rootpath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        Logistic_classification = joblib.load(os.path.join(rootpath,"/logistic_regression.joblib"))
+        Logistic_classification = joblib.load(os.path.join(rootpath,"../logistic_regression.joblib"))
         Decision_classification = joblib.load(os.path.join(rootpath,
-            "/DecisionTreeClassifier_instance.joblib"
+            "../DecisionTreeClassifier_instance.joblib"
         ))
-        Random_classification = joblib.load(os.path.join(rootpath,"/RandomForestClassifier_Instance.joblib"))
-        Knn_classification = joblib.load(os.path.join(rootpath,"/KNeighborsClassifier_instance.joblib"))
-        Svc_classification = joblib.load(os.path.join(rootpath,"/SVCClassifier_instance.joblib"))
+        Random_classification = joblib.load(os.path.join(rootpath,"../RandomForestClassifier_Instance.joblib"))
+        Knn_classification = joblib.load(os.path.join(rootpath,"../KNeighborsClassifier_instance.joblib"))
+        Svc_classification = joblib.load(os.path.join(rootpath,"../SVCClassifier_instance.joblib"))
         st.info("Models are loaded successfully....!")
         st.code("('Hypertension', 1), ('Diabetes', 0), ('Obesity', 2)")
         model_selection = {
