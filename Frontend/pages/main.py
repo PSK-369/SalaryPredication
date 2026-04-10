@@ -40,10 +40,10 @@ try:
         st.code(model_selection.items())
 
     except Exception as e2:
-        st.code(str(e2), language="python")
+        st.error(str(e2), language="python")
 
     else:
-        st.info("No Errors in the code")
+        st.success("No Errors in the code")
 
     try:
         st.set_page_config(page_title="This is the main page URL", layout="centered")
