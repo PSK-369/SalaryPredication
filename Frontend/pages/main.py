@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import statistics as sts
-import seaborn as sns
 import joblib
 import streamlit as st
 import time
